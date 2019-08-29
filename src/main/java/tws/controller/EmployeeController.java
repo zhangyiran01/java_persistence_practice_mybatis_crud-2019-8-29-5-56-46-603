@@ -25,5 +25,4 @@ public class EmployeeController {
     public ResponseEntity<List<Employee>> getAll() {
         return ResponseEntity.ok(employeeMapper.selectAll());
     }
-
 }
